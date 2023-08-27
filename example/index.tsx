@@ -7,7 +7,7 @@ import { Product } from '../dist/interfaces/interfaces';
 const product: Product = {
   id: '1',
   title: 'Coffee Mug - Card',
-  img: './coffee-mug.png'
+  //img: './coffee-mug.png'
 }
 
 const App = () => {

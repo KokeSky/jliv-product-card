@@ -1,0 +1,23 @@
+import { Product } from "../../src/interfaces/interfaces"
+
+export const product1: Product = {
+    id: '1',
+    title: 'Coffee Mug - Sin Imagen',
+    //img: './coffee-mug.png'
+  }
+
+
+export const product2: Product = {
+    id: '2',
+    title: 'Coffee Mug - Con Imagen',
+    img: './coffee-mug.png'
+}
+
+
+
+
+  
+
+
+
+  
