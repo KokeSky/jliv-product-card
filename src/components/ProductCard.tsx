@@ -1,9 +1,7 @@
 import React, { Provider } from 'react';
 import { createContext } from 'react';
 import { useProduct } from '../hooks/useProduct';
-
 import { ProductContextProps, ProductCardProps } from '../interfaces/interfaces';
-
 import styles from '../styles/styles.module.css'
 
 export const ProductContext = createContext({} as ProductContextProps);
@@ -39,9 +37,6 @@ export const ProductCard = ( { children, product, className, style, onChange, va
     </Provider>
   )
 }
-
-
-
 
 
 
